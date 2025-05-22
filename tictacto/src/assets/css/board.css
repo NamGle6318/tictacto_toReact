@@ -1,0 +1,21 @@
+.board {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.board td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #f0f0f0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+}
+
+.board td:hover {
+    background-color: #f0f0f0;
+}
